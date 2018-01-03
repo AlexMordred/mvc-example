@@ -1,0 +1,24 @@
+{
+    "name": "voerro/mvc-example",
+    "description": "Example of an MVC 'framework'",
+    "license": "MIT",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Alexander Zavyalov",
+            "email": "alex@voerro.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "core/",
+            "App\\": "app/"
+        },
+        "files": [
+            "core/helpers.php"
+        ]
+    }
+}
